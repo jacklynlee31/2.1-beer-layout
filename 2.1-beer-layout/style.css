@@ -1,7 +1,51 @@
 /* apply a natural box layout model to all elements, but allowing components to change */
 html {
   box-sizing: border-box;
+  border: .2em solid #38A3D7;
 }
 *, *:before, *:after {
   box-sizing: inherit;
+}
+div {
+	text-align: center;
+	font-family: 'Lato', sans-serif;
+}
+.beer {
+	width:33%;
+	display: inline-block;
+}
+img {
+	height: 5em;
+	width: 5em;
+	display: inline-block;
+}
+h2 {
+	color:#38A3D7;
+	text-align: center;
+}
+span {
+	color:#CECECE;
+	display: block;
+	font-size: 1.5em;
+}
+p {
+	color:#38A3D7;
+	text-align: center;
+	display: block;
+}
+a {
+	text-decoration: none;
+	color:white;
+}
+.button {
+	background-color: #38A3D7;
+	text-align: center;
+	display: block;
+	height:2.5em;
+	width:9em;
+	margin: auto;
+}
+.button2 {
+	color:white;
+	padding-top: .5em;
 }
