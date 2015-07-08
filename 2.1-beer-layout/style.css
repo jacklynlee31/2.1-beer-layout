@@ -52,3 +52,47 @@ a {
 	color:white;
 	padding-top: .5em;
 }
+
+@media (max-width: 1024px) {
+
+div {
+	font-family: 'Lato', sans-serif;
+	white-space: nowrap;
+	text-align: center;
+}
+.beer {
+	display: block;
+	margin: 0;
+}
+img {
+	vertical-align: middle;
+}
+
+h2 {
+	display: inline-block;
+	vertical-align: middle;
+	padding-right: 1em;
+}
+span {
+	display: inline-block;
+	vertical-align: middle;
+	padding-right: 1em;
+}
+p {
+	display: inline-block;
+	vertical-align: middle;
+	padding-right: 1em;
+}
+.button {
+	background-color: #38A3D7;
+	text-align: center;
+	display: inline-block;
+	height:2.5em;
+	width:9em;
+	vertical-align: middle;
+}
+.button2 {
+	color:white;
+	vertical-align:middle;
+}
+}
