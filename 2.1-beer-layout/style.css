@@ -6,6 +6,7 @@ html {
 *, *:before, *:after {
   box-sizing: inherit;
 }
+
 div {
 	text-align: center;
 	font-family: 'Lato', sans-serif;
@@ -13,6 +14,8 @@ div {
 .beer {
 	width:33%;
 	display: inline-block;
+	padding-top: 1em;
+	padding-bottom: 2em;
 }
 img {
 	height: 5em;
