@@ -53,16 +53,16 @@ a {
 	padding-top: .5em;
 }
 
-@media (max-width: 1024px) {
+@media (max-width: 1024px) and (min-width: 461px) {
 
 div {
 	font-family: 'Lato', sans-serif;
-	white-space: nowrap;
-	text-align: center;
 }
 .beer {
 	display: block;
 	margin: 0;
+	width:60em;
+	text-align: left;
 }
 img {
 	vertical-align: middle;
@@ -75,8 +75,14 @@ h2 {
 }
 span {
 	display: inline-block;
-	vertical-align: middle;
 	padding-right: 1em;
+	vertical-align: middle;
+}
+
+.text {
+	display: inline-block;
+	width:25em;
+	vertical-align: middle;
 }
 p {
 	display: inline-block;
@@ -92,7 +98,41 @@ p {
 	vertical-align: middle;
 }
 .button2 {
-	color:white;
-	vertical-align:middle;
+	vertical-align: middle;
+}
+a {
+	vertical-align: middle;
+}
+}
+@media (max-width: 460px) {
+div {
+	font-family: 'Lato', sans-serif;
+	text-align: center;
+}
+.beer {
+	display: block;
+	margin: auto;
+}
+img {
+	text-align: center;
+}
+
+h2 {
+	display: block;
+}
+span {
+	display: block;
+	margin: auto;
+}
+p {
+	display: block;
+	margin: auto;
+}
+.button {
+	background-color: #38A3D7;
+	text-align: center;
+	display: block;
+	height:2.5em;
+	width:9em;
 }
 }
