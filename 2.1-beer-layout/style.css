@@ -1,7 +1,143 @@
 /* apply a natural box layout model to all elements, but allowing components to change */
 html {
   box-sizing: border-box;
+  border: .2em solid #38A3D7;
 }
 *, *:before, *:after {
   box-sizing: inherit;
+}
+
+div {
+	text-align: center;
+	font-family: 'Lato', sans-serif;
+}
+.beer {
+	width:33%;
+	display: inline-block;
+	padding-top: 1em;
+	padding-bottom: 2em;
+}
+img {
+	height: 5em;
+	width: 5em;
+	display: inline-block;
+}
+h2 {
+	color:#38A3D7;
+	text-align: center;
+}
+span {
+	color:#CECECE;
+	display: block;
+	font-size: 1.5em;
+}
+p {
+	color:#38A3D7;
+	text-align: center;
+	display: block;
+}
+a {
+	text-decoration: none;
+	color:white;
+}
+.button {
+	background-color: #38A3D7;
+	text-align: center;
+	display: block;
+	height:2.5em;
+	width:9em;
+	margin: auto;
+}
+.button2 {
+	color:white;
+	padding-top: .5em;
+}
+
+@media (max-width: 1024px) and (min-width: 461px) {
+
+div {
+	font-family: 'Lato', sans-serif;
+}
+.beer {
+	display: block;
+	margin: 0;
+	width:60em;
+	text-align: left;
+}
+img {
+	vertical-align: middle;
+}
+
+h2 {
+	display: inline-block;
+	vertical-align: middle;
+	padding-right: 1em;
+}
+span {
+	display: inline-block;
+	padding-right: 1em;
+	vertical-align: middle;
+}
+
+.text {
+	display: inline-block;
+	width:25em;
+	vertical-align: middle;
+}
+p {
+	display: inline-block;
+	vertical-align: middle;
+	padding-right: 1em;
+}
+.button {
+	background-color: #38A3D7;
+	text-align: center;
+	vertical-align: middle;
+	display: inline-block;
+	height:2.5em;
+	width:9em;
+	padding-bottom: 3em;
+}
+.button2 {
+	vertical-align: middle;
+}
+a {
+	vertical-align: middle;
+}
+}
+@media (max-width: 460px) {
+div {
+	font-family: 'Lato', sans-serif;
+	text-align: center;
+}
+.beer {
+	display: block;
+	margin: auto;
+}
+img {
+	text-align: center;
+}
+
+h2 {
+	display: block;
+}
+span {
+	display: block;
+	padding-bottom: 1em;
+	margin: auto;
+}
+p {
+	display: block;
+	margin: auto;
+}
+.text {
+	padding-bottom:1em;
+}
+.button {
+	background-color: #38A3D7;
+	text-align: center;
+	display: block;
+	height:2.5em;
+	width:9em;
+}
 }
