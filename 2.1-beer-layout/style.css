@@ -92,10 +92,11 @@ p {
 .button {
 	background-color: #38A3D7;
 	text-align: center;
+	vertical-align: middle;
 	display: inline-block;
 	height:2.5em;
 	width:9em;
-	vertical-align: middle;
+	padding-bottom: 3em;
 }
 .button2 {
 	vertical-align: middle;
@@ -122,11 +123,15 @@ h2 {
 }
 span {
 	display: block;
+	padding-bottom: 1em;
 	margin: auto;
 }
 p {
 	display: block;
 	margin: auto;
+}
+.text {
+	padding-bottom:1em;
 }
 .button {
 	background-color: #38A3D7;
